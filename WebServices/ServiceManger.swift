@@ -11,6 +11,20 @@ import Foundation
 class ServiceManager {
     
     func processGetRequest(endPoint: String, params: [String: String]?, onSuccess: @escaping ((Data) -> Void), onFailure: @escaping (String) -> Void) {
+        
+        if endPoint == "products" {
+            let path = Bundle.main.path(forResource: "Response", ofType: "json")
+            let fileURL = URL(fileURLWithPath: path!)
+            do {
+                let data = try Data(contentsOf: fileURL)
+                onSuccess(data)
+                return
+            }
+            catch {
+             onFailure("sdfs")
+            }
+            return
+        }
         // Step 1: Prepare URLRequest
         let finalEndpoint = URLs.baseURL + endPoint
         print(finalEndpoint)

@@ -10,5 +10,6 @@ import Foundation
 
 struct URLs {
     static let baseURL = "https://jsonplaceholder.typicode.com"
-    static let comments = "/comments"    
+    static let comments = "/comments"
+    static let products = "products"  
 }

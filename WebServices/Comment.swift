@@ -24,3 +24,14 @@ class Comment: Codable {
 //    "email": "Eliseo@gardner.biz",
 //    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
 
+
+class Response: Codable {
+    let status: Int?
+    let message: String?
+    let products: [Product]
+}
+
+class Product: Codable {
+    let productName: String?
+    let price: Double?
+}

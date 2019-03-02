@@ -1,0 +1,17 @@
+{
+    "status": 100,
+    "message": "This is the response from service",
+    "products": [{
+        "productName": "First",
+        "price": 100.0
+    },
+    {
+        "productName": "Two",
+        "price": 100.0
+    },
+    {
+        "productName": "Three",
+        "price": 100.0
+    }
+    ]
+}

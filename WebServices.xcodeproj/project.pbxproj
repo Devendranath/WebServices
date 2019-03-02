@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186DB2C4222A38F200FC91B2 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 186DB2C3222A38F200FC91B2 /* Response.json */; };
 		18F401C9222647500035ED0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F401C8222647500035ED0D /* AppDelegate.swift */; };
 		18F401CB222647500035ED0D /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F401CA222647500035ED0D /* CommentsViewController.swift */; };
 		18F401CE222647500035ED0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F401CC222647500035ED0D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186DB2C3222A38F200FC91B2 /* Response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
 		18F401C5222647500035ED0D /* WebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F401C8222647500035ED0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F401CA222647500035ED0D /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				18F401DA222648420035ED0D /* CommentsViewModel.swift */,
 				18F401DE2226493E0035ED0D /* URLs.swift */,
 				18F401DC222648530035ED0D /* ServiceManger.swift */,
+				186DB2C3222A38F200FC91B2 /* Response.json */,
 				18F401E022264FE90035ED0D /* Comment.swift */,
 				18F401CC222647500035ED0D /* Main.storyboard */,
 				18F401CF222647550035ED0D /* Assets.xcassets */,
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186DB2C4222A38F200FC91B2 /* Response.json in Resources */,
 				18F401D3222647550035ED0D /* LaunchScreen.storyboard in Resources */,
 				18F401D0222647550035ED0D /* Assets.xcassets in Resources */,
 				18F401CE222647500035ED0D /* Main.storyboard in Resources */,
