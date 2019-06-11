@@ -8,6 +8,7 @@
 
 import Foundation
 
+// URL Endpoints
 struct URLs {
     static let baseURL = "https://jsonplaceholder.typicode.com"
     static let comments = "/comments"

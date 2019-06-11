@@ -9,7 +9,10 @@
 import UIKit
 
 class CommentsViewModel: NSObject {
+    // Parameters
     var comments: [Comment]? = []
+    
+    // Webservice call
     func getComments(result: @escaping (Bool)-> Void ) {
         ServiceManager().processGetRequest(endPoint: URLs.products, params: nil, onSuccess: { (data) in
             

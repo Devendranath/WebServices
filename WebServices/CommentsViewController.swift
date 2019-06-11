@@ -10,6 +10,7 @@ import UIKit
 
 class CommentsViewController: UIViewController {
     
+    // Outlets
     @IBOutlet weak var tableView: UITableView!
     var commnetsViewModel: CommentsViewModel?
     
@@ -18,6 +19,7 @@ class CommentsViewController: UIViewController {
         commnetsViewModel = CommentsViewModel()
     }
 
+    // Actions
     @IBAction func getComments(_ sender: Any) {
         commnetsViewModel?.getComments(result: { (isSuccess) in
             if isSuccess {
@@ -30,6 +32,7 @@ class CommentsViewController: UIViewController {
 }
 
 
+// Extensions
 extension CommentsViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
